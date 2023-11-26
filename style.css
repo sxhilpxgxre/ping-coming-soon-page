@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 3em;
+    width: 90%;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.head{
+    text-align: center;
+}
+.head > h1, .foot > p , small{
+    color: hsl(0, 0%, 59%);
+}
+span{
+    color: black;
+    font-weight: 600;
+}
+small{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.head > h1{
+    font-size: 55px;
+    font-weight: 300;
+    margin-top: .5em;
+}
+.main > div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 40px 0px 30px 0px;
+}
+.main{
+    width: 55em;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+#msg{
+    position: absolute;
+    top: 282px;
+    left: 610px;
+}
+
+.main > img{
+    margin-top: 2em;
+    width: 100%;
+}
+input[type=text]{
+    width: 420px;
+    height: 50px;
+    padding: 20px;
+    border: solid hsl(223, 100%, 88%) 2px;
+    border-radius: 25px;
+    font-size: 17px;
+    margin-right: 20px;
+}
+input[type=text]::placeholder{
+    color:hsl(223, 100%, 88%);
+}
+input[type=text]:focus{
+    outline: none;
+}
+button{
+    color: whitesmoke;
+    background-color: hsl(223, 87%, 63%);
+    height: 50px;
+    width: 190px;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow: 1px 5px 9px  hsl(223, 100%, 88%);
+}
+button:hover{
+    background-color: hsl(223, 93%, 72%);
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+i{
+    padding: 15px;
+    border-radius: 50px;
+    color: blue;
+    background: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+i:hover{
+    color: white;
+    background-color: blue;
+}
+

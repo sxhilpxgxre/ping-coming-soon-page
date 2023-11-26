@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="author" content="sahilpagare">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+  <div class="container">
+    <div class="head" role="header">
+      <img src="images/logo.svg" alt="logo">
+      <h1>We are launching <span>soon!</span></h1>
+      <small>Subscribe and get notified</small>
+    </div>
+    <div class="main" role="main">
+      <div>
+        <form>
+          <input type="text" id="email" placeholder="Your email address..."><br>
+        </form>
+        <button onclick="checkMail()">Notify Me</button>
+      </div>
+      <p id="msg"></p>
+      <img src="images/illustration-dashboard.png" alt="dashboard">
+    </div>
+    <div class="foot" role="footer">
+      <p>
+        <span><i class="fa-brands fa-facebook-f"></i></span>
+        <span><i class="fa-brands fa-twitter"></i></span>
+        <span><i class="fa-brands fa-instagram"></i></span>
+      </p>
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
